@@ -1,7 +1,7 @@
 
 var tombol = document.getElementById('tombol')
 tombol.addEventListener('click', function() {
-  
+if(document.getElementById('sisa').value>0 || document.getElementById('tambahan').value>0) {
 var danaTambah = document.getElementById('tambahan').value
 var danaTambah1 = Number(danaTambah)
 var danaSisaTerus = document.getElementById('sisa').value
@@ -31,6 +31,6 @@ console.log(danaSisa)
 console.log(danaTambah1)
 document.getElementById('tambahan').value='';
 document.getElementById("sisa").value=danaSisa;
-});
+}else{alert("isi taruhan");}});
 
 
