@@ -31,6 +31,8 @@ console.log(danaSisa)
 console.log(danaTambah1)
 document.getElementById('tambahan').value='';
 document.getElementById("sisa").value=danaSisa;
-}else{alert("isi taruhan");}});
+}
+  else{alert("isi taruhan");}
+});
 
 
